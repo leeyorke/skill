@@ -1,0 +1,22 @@
+{
+  "name": "leeyorke-agent-skills",
+  "owner": {
+    "name": "leeyorke",
+    "email": "leeyorke@gmail.com"
+  },
+  "metadata": {
+    "description": "leeyorke agent skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "document-skills",
+      "description": "将 EPUB 电子书从一种语言翻译为另一种语言，同时保持原始格式、章节结构和元数据完整",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/epub-translator"
+      ]
+    }
+  ]
+}
